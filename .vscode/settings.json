@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "farmer",
+            "database": "farm_management",
+            "username": "farmer"
+        }
+    ],
+    "cSpell.words": [
+        "faddress",
+        "fdob",
+        "kisan",
+        "ssssi"
+    ]
+}

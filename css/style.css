@@ -1,0 +1,56 @@
+body {
+    background-image: url('../Images/farmer_background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body-farmer {
+    background-image: url('../images/otherpages.jpg');
+}
+
+.body-product {
+    background-image: url('../images/otherpages.jpg');
+}
+
+.body-order {
+    background-image: url('../images/otherpages.jpg');
+}
+
+.body-customer {
+    background-image: url('../images/otherpages.jpg');
+}
+
+.body-sales {
+    background-image: url('../images/otherpages.jpg');
+}
+.navbar {
+    border-bottom: 3px solid red;
+}
+
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero h1 {
+    color: red;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    color: red;
+    margin-bottom: 1em;
+}
+
+.hero a.btn-primary {
+    font-weight: bold;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, button, input, select, textarea {
+    font-family: 'Courier New', Courier, monospace; /* Setting the font family */
+    color: white; /* Dark gray color for the font, change as needed */
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Entry</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body class="body-product">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sales Page</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../index.html">Home</a>
+                    <a class="nav-link" href="farmer.html">Farmer</a>
+                    <a class="nav-link active" href="#">Product</a>
+                    <a class="nav-link" href="order.html">Order</a>
+                    <a class="nav-link" href="customer.html">Customer</a>
+                    <a class="nav-link" href="sales.html">Sales</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="mb-4 text-center">Enter Product Details</h2>
+        <form action="insert_product.php" method="post">
+            <div class="form-group">
+                <label for="productId">Product ID</label>
+                <input type="text" class="form-control" id="productId" name="productId" required>
+            </div>
+            <div class="form-group">
+                <label for="kisanCardNo">Kisan Card No</label>
+                <input type="text" class="form-control" id="kisanCardNo" name="kisanCardNo" required>
+            </div>
+            <div class="form-group">
+                <label for="productType">Product Type</label>
+                <select class="form-control" id="productType" name="productType">
+                    <option>Crops</option>
+                    <option>Fruits</option>
+                    <option>Vegetables</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="unitPrice">Unit Price</label>
+                <input type="number" class="form-control" id="unitPrice" name="unitPrice" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Insert Product</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</>
+</html>
