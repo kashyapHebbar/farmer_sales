@@ -1,31 +1,18 @@
+<?php
+include '../php/connect.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Data</title>
+    <!-- Include Bootstrap CSS and your custom CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body class="body-sales">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="../index.html">Sales Page</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="../index.html">Home</a>
-                    <a class="nav-link" href="farmer.html">Farmer</a>
-                    <a class="nav-link" href="product.html">Product</a>
-                    <a class="nav-link" href="order.html">Order</a>
-                    <a class="nav-link" href="customer.html">Customer</a>
-                    <a class="nav-link active" href="#">Sales</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <!-- Navigation bar -->
+    <!-- [Your existing navigation code, update the link to sales.php if necessary] -->
 
     <div class="container mt-5">
         <h2 class="mb-4 text-center">Sales Data</h2>
@@ -71,13 +58,11 @@
 
                 $conn->close();
                 ?>
-                <!-- Dynamic rows will be inserted here using PHP and MySQL data -->
             </tbody>
         </table>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Include jQuery and Bootstrap JS -->
+    <!-- [Your existing scripts] -->
 </body>
 </html>
